@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="erika"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-14 01:54:24 "/>
+        <attribute name="created" value="ZXJpa2E7TEFQVE9QLURCTU5IUUhQOzIwMjItMDYtMTQ7IjAxOjQxOjI0ICI7MjgxMQ=="/>
+        <attribute name="edited" value="ZXJpa2E7TEFQVE9QLURCTU5IUUhQOzIwMjItMDYtMTQ7IjAxOjU0OjI0ICI7MTsyOTIz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, total, media" type="Integer" array="False" size=""/>
+            <output expression="&quot;Insira a nota 1&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Insira nota 2&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Insira nota 3&quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;Insira nota 4&quot;" newline="True"/>
+            <input variable="nota4"/>
+            <assign variable="total" expression="nota1+nota2+nota3+nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="&quot;Seu total &#233;: &quot; &amp; total &amp; &quot; e sua media &#233;: &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
