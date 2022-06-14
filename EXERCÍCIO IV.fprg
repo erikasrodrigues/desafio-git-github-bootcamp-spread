@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="erika"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-14 02:26:12 "/>
+        <attribute name="created" value="ZXJpa2E7TEFQVE9QLURCTU5IUUhQOzIwMjItMDYtMTQ7IjAxOjU0OjQyICI7MjgxNQ=="/>
+        <attribute name="edited" value="ZXJpa2E7TEFQVE9QLURCTU5IUUhQOzIwMjItMDYtMTQ7IjAyOjI2OjEyICI7MTsyOTIw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome, drt" type="String" array="False" size=""/>
+            <declare name="janeiro, fevereiro, marco, abril, total, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite nome do COLAB:&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Digite sobrenome do COLAB:&quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <output expression="&quot;Digite DRT do COLAB:&quot;" newline="True"/>
+            <input variable="drt"/>
+            <input variable="janeiro"/>
+            <input variable="fevereiro"/>
+            <input variable="marco"/>
+            <input variable="abril"/>
+            <assign variable="total" expression="janeiro+fevereiro+marco+abril"/>
+            <output expression="total" newline="True"/>
+            <assign variable="media" expression="(janeiro+fevereiro+marco+abril)/4"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=5000">
+                <then>
+                    <output expression="&quot;O Colaborador: &quot; &amp; nome &amp;  sobrenome &amp; &quot; DRT: &quot; &amp; drt &amp; &quot; fez um total de vendas de: &quot; &amp; total &amp; &quot; de janeiro a abril &quot; &amp; &quot; e uma m&#233;dia de vendas de: &quot; &amp; media &amp;&quot;.&quot; &amp; &quot; O Colaborador receber&#225; 15% de b&#244;nus.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O Colaborador: &quot; &amp; nome &amp; sobrenome &amp; &quot; DRT: &quot; &amp; drt &amp; &quot; fez um total de vendas de: &quot; &amp; total &amp; &quot; de janeiro a abril &quot; &amp; &quot; e uma m&#233;dia de vendas de: &quot; &amp; media &amp;&quot;.&quot; &amp; &quot; O Colaborador receber&#225; 5% de b&#244;nus.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
