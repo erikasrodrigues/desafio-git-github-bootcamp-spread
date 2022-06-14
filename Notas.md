@@ -28,26 +28,49 @@ https://rachacuca.com.br/jogos/pinguins-numa-fria/
 Pseudocódigo Pinguins
 
 INÍCIO:
+
+
 Filhote e Adulto (vermelhos) sobem no gelo;
+
 Bloco de gelo atravessa a margem;
+
 Adulto (vermelho) passa para o outro lado;
+
 Bloco de gelo atravessa a margem c/ o filhote vermelho;
+
 Filhote verde sobe no bloco de gelo;
+
 Bloco de gelo atravessa a margem;
+
 Filhote vermelho desce;
+
 Bloco de gelo atravessa a margem; c/ filhote verde;
+
 Adulto verde sobe;
+
 Bloco de gelo atravessa a margem;
+
 Adulto verde desce;
+
 Bloco de gelo atravessa a margem; c/ filhote verde;
+
 Filhote azul sobe no bloco de gelo;
+
 Bloco de gelo atravessa a margem;
+
 Filhote verde desce;
+
 Bloco de gelo atravessa a margem c/ filhote azul;
+
 Adulto azul sobe;
+
 Bloco de gelo atravessa a margem;
+
 Adulto azul desce;
+
 Filhote azul desce;
+
+
 FIM.
 
 
@@ -61,50 +84,98 @@ Ex:
 Algoritmo do meu dia:
  
 INÍCIO DIA:
+
+
 Acordei;
+
 Levantei;
+
 Tomei banho;
+
 Escovei os dentes;
+
 Tomei 1 litro de água;
+
 Tomei meu shot matinal;
+
 Entrei no Litle George;
+
 Fui a Academia;
+
 Saí do Litle George;
+
 Entrei na Academia;
+
 Fiz spinning e musculação;
+
 Entrei no Litle George;
+
 Fui a Faculdade;
+
 Saí do Litle George;
+
 Entrei na Faculdade;
+
 Entrei no Litle George;
+
 Fui para casa;
+
 Saí do Litle George;
+
 Entrei em casa;
+
 Fiz consulta online com a Psicóloga;
+
 Entrei no Litle George;
+
 Fui ao Mercado;
+
 Saí do Litle George;
+
 Entrei no Mercado;
+
 Fiz compras;
+
 Saí do Mercado;
+
 Entrei no Litle George;
+
 Voltei para casa;
+
 Saí do Litle George;
+
 Entrei em casa;
+
 Almocei;
+
 Coloquei ração para o Marley;
+
 Deitei;
+
 Tirei um cochilo pós almoço;
+
 Acordei;
+
 Levantei;
+
 Fui ao meu quarto;
+
 Arrumei meu quarto ouvindo aula do bootcamp da spread;
+
 Fui ao banheiro e tomei banho;
+
 Me arrumei para trabalhar;
+
 Fiz marmita;
+
 Entrei no Litle George;
+
 Busquei a Vanessa;
+
 Fui trabalhar.
+
+
+
 FIM DO DIA.
 
 ### FLUEXOGRAMA, VARIÁVEIS E CONSTANTES
@@ -116,10 +187,15 @@ dos passos necessários para a execução de um processo qualquer.
  - INÍCIO DO ALGORÍTMO
 
 ***FLUXO DE DADOS***
+
  - ENTRADA DE DADOS
+ - 
  - PROCESSAMENTO DE DADOS
+ - 
  - SAÍDA
+
 ***FLUXO DE DADOS***
+
 
  - FIM
 
@@ -151,9 +227,14 @@ Calcule 4 ou mais notas de um(a) aluno(a) e retorne ao usuário o total e a méd
 http://www.flowgorithm.org
 
 PASSO A PASSO:
+
+
 - Definir as variáveis
+- 
 - Atribuir valor as variáveis
+- 
 - Exibir valores
+
 
 
 ### TOMADAS DE DECISÃO, EXPRESSÕES e CONCATENAÇÃO
@@ -163,12 +244,17 @@ constantes e variáveis.
 
  - Principais operadores Aritméticos na informática:
 
-Soma: # +
-Subtração: # -
-Multiplicação: # *
-Divisão: # /
-Potenciação: # ^
-Porcentagem: # %
+Soma: **+**
+
+Subtração: **-**
+
+Multiplicação: *****
+
+Divisão: **/**
+
+Potenciação: **^**
+
+Porcentagem: **%**
 
  - EXPRESSÕES LITERAIS: Atribuição de valor para uma variável ou constante.
  - Para atribuir o valor de uma variável ou constante sempre será usado o sinal de (=);
@@ -178,12 +264,16 @@ Porcentagem: # %
 
  - Operadores relacionais:
 
-> Maior que
->= Maior ou igual
-< Menor que
-<= Menor ou igual
-== Igualdade (Sempre que for comparar os valores)
-!= Diferente de (Também é utilizado <>)
+ Maior que: **>**
+
+ Maior ou igual: **>=**
+
+ Menor que: **<**
+ 
+ Menor ou igual: **<=**
+ 
+ Igualdade: **==** (Sempre que for comparar os valores) 
+ Diferente de: **!=** (Também é utilizado **<>**)
 
 - CONCATENAÇÃO: Operação de unir o conteúdo de duas strings (são uma sequência de caracters), faz o agrupamento 
 de duas ou mais células (fórmulas, textos ou outras informações contidas no seu interior) e dá origem a um único resultado.
